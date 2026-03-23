@@ -30,9 +30,9 @@ return 0;
 
 #else
 
-using string = std::basic_string<char>; // type alias
+using typeAlias = std::basic_string<char>; // type alias
 
-void processVector(const std::vector<string> &vec) //
+void processVector(const std::vector<typeAlias> &vec) //
 {
     /* ... */
 }
@@ -40,7 +40,7 @@ void processVector(const std::vector<string> &vec) //
 int main()
 {
 
-    std::vector<string> myVector; //
+    std::vector<typeAlias> myVector; //
     processVector(myVector);
 
     return 0;
