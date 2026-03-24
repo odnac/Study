@@ -29,7 +29,6 @@ int main()
         case 0:
             done = true;
             break;
-
         case 1:
             doHire(employeeDB);
             break;
